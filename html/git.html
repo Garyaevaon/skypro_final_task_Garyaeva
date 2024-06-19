@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Git</title>
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+      <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <!--Card-->
+      <div class="card">
+         <p class="subtitle">Git</p>
+         <h3 id="rt-0"> Первоначальная настройка</h3>
+          <ul>
+            <li>git config --global user.name "[имя]" - устанавливает имя, которое будет отображаться в поле автора у выполняемых вами коммитов.</li>
+            <li>git config --global user.email "[адрес электронной почты]" - устанавливает адрес электронной почты, который будет отображаться в информации о выполняемых вами коммитах.</li>
+         </ul>
+         <h3 id="rt-0"> Создание репозитория</h3>
+          <ul>
+            <li>git init [название проекта] - создаёт новый локальный репозиторий с заданным именем.</li>
+            <li>git clone [url-адрес] - скачивает репозиторий вместе со всей его историей изменений.</li>
+         </ul>
+         <h3 id="rt-0"> Внесение изменений</h3>
+          <ul>
+            <li>git status - перечисляет все новые или изменённые файлы, которые нуждаются в фиксации.</li>
+            <li>git diff - показывает различия по внесённым изменениям в ещё не проиндексированных файлах.</li>
+            <li>git add [файл] - индексирует указанный файл для последующего коммита.</li>
+            <li>git diff --staged - показывает различия между проиндексированной и последней зафиксированной версиями файлов.</li>
+            <li>git reset [файл] - отменяет индексацию указанного файла, при этом сохраняет его содержимое.</li>
+            <li>git commit -m "[сообщение с описанием]" - фиксирует проиндексированные изменения и сохраняет их в историю версий.</li>
+         </ul>
+      </div>
+      <!--footer-->
+      <footer class="animated fadeIn">
+         <p class="location" align="center">
+            <a href="../index.html">Вернуться на главную</a>
+         </p>
+         &copy; 2024. SkyPro
+      </footer>
+   </body>
+</html>
